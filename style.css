@@ -8,6 +8,8 @@ body {
     text-align: center;
     size: 50%;
     background-image: linear-gradient(#414141, #242424);
+    padding-bottom: 1rem;
+    border-radius: .5rem;
 }
 
 .general {
@@ -22,10 +24,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     color: white;
     margin-bottom: 1rem;
     font-size: 1.4rem;
-    border-bottom: 3px solid darkgrey;
-    background: none;
+}
+
+.inp-field{
+    border-radius: 3px;
 }
